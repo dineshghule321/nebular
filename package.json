@@ -2,8 +2,8 @@
   "name": "@ymin/nebular",
   "version": "6.2.1",
   "license": "MIT",
-  "author": "akveo <contact@akveo.com>",
-  "private": true,
+  "author": "dinesh <dineshghule321@gmail.com>",
+  "private": false,
   "browserslist": [
     "> 1%",
     "last 2 versions",
