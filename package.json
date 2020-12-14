@@ -1,5 +1,5 @@
 {
-  "name": "nebular",
+  "name": "@ymin/nebular",
   "version": "6.2.1",
   "license": "MIT",
   "author": "akveo <contact@akveo.com>",
@@ -10,10 +10,13 @@
     "IE 11"
   ],
   "bugs": {
-    "url": "https://github.com/akveo/nebular/issues"
+    "url": "https://github.com/dineshghule321/nebular/issues"
   },
-  "homepage": "https://github.com/akveo/nebular#readme",
-  "repository": "git+https://github.com/akveo/nebular.git",
+  "homepage": "https://github.com/dineshghule321/nebular#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dineshghule321/nebular.git"
+  },
   "scripts": {
     "ng": "ng",
     "ngcc-compile": "ngcc --properties es2015 browser module main --first-only --create-ivy-entry-points",
@@ -181,5 +184,10 @@
     "uglify-es": "3.3.9",
     "uglifyjs-webpack-plugin": "2.1.2"
   },
-  "schematics": "./schematics/dist/collection.json"
+  "schematics": "./schematics/dist/collection.json",
+  "description": "[Documentation](https://akveo.github.io/nebular/docs/getting-started/what-is-nebular?utm_campaign=nebular%20-%20home%20-%20nebular%20github%20readme&utm_source=nebular&utm_medium=referral&utm_content=documentation) | [Stackblitz Template](https://stackblitz.com/github/akveo/nebular-seed) | [UI Bakery](https://uibakery.io?utm_campaign=ui_bakery%20-%20home%20-%20nebular%20readme&utm_source=nebular&utm_medium=referral&utm_content=angular_ui_builder) - Angular UI Builder | [Angular templates](https://www.akveo.com/templates?utm_campaign=services%20-%20github%20-%20templates&utm_source=nebular&utm_medium=referral&utm_content=github%20readme%20top%20angular%20templates%20link)",
+  "main": "gulpfile.js",
+  "directories": {
+    "doc": "docs"
+  }
 }
